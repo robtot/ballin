@@ -1,0 +1,25 @@
+{
+  "name": "ballin",
+  "version": "1.0.0",
+  "description": "Wep app where you can throw a ball at someone who will yell out urban slang.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robtot/ballin.git"
+  },
+  "keywords": [
+    "ball",
+    "throw",
+    "urban",
+    "slang"
+  ],
+  "author": "Robert Rytovuori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robtot/ballin/issues"
+  },
+  "homepage": "https://github.com/robtot/ballin#readme"
+}
