@@ -4,7 +4,8 @@
   "description": "Wep app where you can throw a ball at someone who will yell out urban slang.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/robtot/ballin/issues"
   },
-  "homepage": "https://github.com/robtot/ballin#readme"
+  "homepage": "https://github.com/robtot/ballin#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
