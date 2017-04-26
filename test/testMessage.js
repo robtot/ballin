@@ -35,7 +35,7 @@ describe('<Message />', () => {
 		});
 
 		afterEach(() => {
-			//restore time back to global time
+			//restore time back to	 global time
 			clock.restore();
 		});
 
